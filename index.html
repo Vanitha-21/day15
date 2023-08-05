@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoint" content="width=device-with, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		
+		<div class="container">
+			<h2>Select Number Of Rows</h2>
+			<div class="form-group">
+				<select class  ="form-control" name="state" id="maxRows">
+					<option value="5000">Show ALL Rows</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="15">15</option>
+					<option value="20">20</option>
+					<option value="50">50</option>
+					<option value="70">70</option>
+					<option value="100">100</option>
+				</select>
+			</div>
+			<table id="example" class="table table-striped nowrap" style="width:100%">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>NAME</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<td>1</td>
+					<td>Lura senger</td>
+					<td>Xander_Collier@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Wilburn Weber</td>
+					<td>Bennett_Kreiger11@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Tyrique Hahn</td>
+					<td>Juston.Altenwerth@yahoo.com</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Lenny Baile</td>
+					<td>Guiseppe_Hegmann@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Vladimir Keeling</td>
+					<td>Louisa_Walsh18@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Kellie Crona</td>
+					<td>Chandler_Abernathy@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Carolina White</td>
+					<td>Royal50@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Alfredo Conn</td>
+					<td>Clarabelle34@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Stan Shanahan</td>
+					<td>Lamar.McClure@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Marvin Fay</td>
+					<td>Osbaldo58@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>Marvin Fay</td>
+					<td>Osbaldo58@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>Torrance Rau</td>
+					<td>Orin45@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>Harold Gutmann MD</td>
+					<td>Alyce.Stracke37@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>Taryn Torphy</td>
+					<td>Dean_Breitenberg71@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Bryana Lang</td>
+					<td>Tatum.Ullrich@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Nyasia Green DDS</td>
+					<td>Dino83@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>Nasir Gerhold</td>
+					<td>Lilian_Bashirian8@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>Raymundo Ritchie PhD</td>
+					<td>Antwan.Schoen15@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>Delmer Marvin</td>
+					<td>Kiera62@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>Rachel Wilkinson</td>
+					<td>Foster_Conroy@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>Gladys Howell</td>
+					<td>Constance.Labadie10@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>Ciara Klocko</td>
+					<td>Harvey76@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>Quentin O'Kon</td>
+					<td>Amely_Cummings2@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Ms. Gabriella Kunde</td>
+					<td>Lorenza_Cummerata@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>25</td>
+					<td>Gerald Reilly</td>
+					<td>Lia_Konopelski@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>26</td>
+					<td>Brody Carter I</td>
+					<td>Colten.Wilderman90@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>27</td>
+					<td>Alanis Klocko</td>
+					<td>Johathan.Champlin69@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>28</td>
+					<td>Caroline Miller</td>
+					<td>Delaney.Kozey74@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>29</td>
+					<td>Ms. Merritt McClure</td>
+					<td>Wendy.Zieme@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>30</td>
+					<td>Jovani Schoen</td>
+					<td>Norval_Zieme@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>31</td>
+					<td>Berniece Bradtke</td>
+					<td>Okey.Fisher39@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>32</td>
+					<td>Hanna Gottlieb</td>
+					<td>Edna62@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>33</td>
+					<td>Christiana Bergnaum</td>
+					<td>Donnie.Paucek22@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>34</td>
+					<td>Reid Stehr</td>
+					<td>Hiram69@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>35</td>
+					<td>Miss Enos Davis</td>
+					<td>Kolby.Grady@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>36</td>
+					<td>Mathew Lueilwitz</td>
+					<td>Mariah.Hagenes@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>37</td>
+					<td>Romaine Robel</td>
+					<td>Sheila19@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>38</td>
+					<td>Immanuel Aufderhar</td>
+					<td>Aileen32@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>39</td>
+					<td>Julius Reilly Jr.</td>
+					<td>Santa89@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>40</td>
+					<td>Linnea Borer</td>
+					<td>Jarrett_Hegmann2@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>41</td>
+					<td>Misael Abernathy IV</td>
+					<td>Robbie42@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>42</td>
+					<td>Mr. Gerda Jerde</td>
+					<td>Gustave36@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>43</td>
+					<td>Easton Daugherty</td>
+					<td>Malcolm.Schuster11@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>44</td>
+					<td>Leanna Gutkowski</td>
+					<td>Chelsea9@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>45</td>
+					<td>Rollin Trantow</td>
+					<td>Marques_Hickle26@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>46</td>
+					<td>Heaven Luettgen</td>
+					<td>Lonnie.Greenfelder95@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>47</td>
+					<td>Gilda Huel</td>
+					<td>Stephania.Hintz@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>48</td>
+					<td>Javon Walker</td>
+					<td>Lamar_Bailey39@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>49</td>
+					<td>Stewart King</td>
+					<td>Chasity_Jenkins82@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>50</td>
+					<td>Cortez Lueilwitz</td>
+					<td>Lelia.Mitchell43@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>51</td>
+					<td>Ora Kilback</td>
+					<td>Matt25@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>52</td>
+					<td>Asa Gottlieb</td>
+					<td>Carolyne.Langosh@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>53</td>
+					<td>Avery Nienow</td>
+					<td>Hudson_Bernhard47@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>54</td>
+					<td>Dr. Katrine Ryan</td>
+					<td>Colten40@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>55</td>
+					<td>Florida Kulas</td>
+					<td>Alejandra_Bernhard@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>56</td>
+					<td>Oren Lawson</td>
+					<td>sed@Donecelementumlorem.net</td>
+					
+				</tr>
+				<tr>
+					<td>57</td>
+					<td>Mauricio Gerlach</td>
+					<td>Vincenza_Gusikowski84@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>58</td>
+					<td>Chadrick Simonis</td>
+					<td>Reymundo.Doyle@gmail.com</td>
+				
+				</tr>
+				<tr>
+					<td>59</td>
+					<td>Beau Jenkins</td>
+					<td>Cletus65@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>60</td>
+					<td>Camilla Cole</td>
+					<td>Eda48@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>61</td>
+					<td>Abagail MacGyver</td>
+					<td>Jevon.Koch@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>62</td>
+					<td>Ludwig Prohaska</td>
+					<td>Eldon_DuBuque37@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>63</td>
+					<td>Berenice Hane</td>
+					<td>Lonnie3@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>64</td>
+					<td>Abel Durgan</td>
+					<td>Marlee.Weimann42@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>65</td>
+					<td>Tate Kuhlman</td>
+					<td>Hope31@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>66</td>
+					<td>Mrs. Hermina Daniel</td>
+					<td>Murphy59@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>67</td>
+					<td>Marcelino Nienow</td>
+					<td>Estefania_Dibbert97@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>68</td>
+					<td>Raphaelle Connelly</td>
+					<td>Josie.Legros70@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>69</td>
+					<td>Mina Heaney</td>
+					<td>Pete.Hermann79@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>70</td>
+					<td>Jaida Torp</td>
+					<td>Jonatan82@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>71</td>
+					<td>Megane Fadel</td>
+					<td>Dandre82@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>72</td>
+					<td>Angelo Schimmel V</td>
+					<td>Frederic54@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>73</td>
+					<td>Jaren Ferry DDS</td>
+					<td>Kristian.Kilback@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>74</td>
+					<td>Annette O'Connell</td>
+					<td>Domenica.Christiansen@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>75</td>
+					<td>Elenor Rohan PhD</td>
+					<td>Alvera.Huel48@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>76</td>
+					<td>Linnie Beier</td>
+					<td>Reece_Berge@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>77</td>
+					<td>Maybelle Lehner</td>
+					<td>Arlo.Hagenes@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>78</td>
+					<td>Hailie Haag</td>
+					<td>Edythe.Lind59@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>79</td>
+					<td>Marcelina Schuppe</td>
+					<td>Kip.Cummerata77@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>80</td>
+					<td>Ezra Lang</td>
+					<td>Garret.Swaniawski@hotmail.com</td>
+			
+				</tr>
+				<tr>
+					<td>81</td>
+					<td>Carey Kiehn</td>
+					<td>Sabrina70@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>82</td>
+					<td>Carole Aufderhar</td>
+					<td>Efrain.Schamberger77@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>83</td>
+					<td>Fanny Beatty</td>
+					<td>Ewald28@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>84</td>
+					<td>Mina Lubowitz</td>
+					<td>Vincenzo.Herman@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>85</td>
+					<td>Anabelle Thiel</td>
+					<td>Amely.Renner@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>86</td>
+					<td>Gerry Homenick</td>
+					<td>Ada_Von54@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>87</td>
+					<td>Domenico Maggio</td>
+					<td>Freeman.Stamm@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>88</td>
+					<td>Mauricio Bradtke III</td>
+					<td>Alford83@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>89</td>
+					<td>Bulah Yost III</td>
+					<td>Nicolas_Schimmel6@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>90</td>
+					<td>Orville Dibbert DDS</td>
+					<td>Bryana_Herzog@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>91</td>
+					<td>Autumn Osinski</td>
+					<td>Davin8@hotmail.com</td>
+			
+				</tr>
+				<tr>
+					<td>92</td>
+					<td>Levi Gibson</td>
+					<td>Deangelo69@gmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>93</td>
+					<td>Reva McKenzie</td>
+					<td>Bret40@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>94</td>
+					<td>Jensen Pfannerstill</td>
+					<td>Dax_Marquardt@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>95</td>
+					<td>Tyrese Larson MD</td>
+					<td>Cecelia85@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>96</td>
+					<td>Dayne Sanford</td>
+					<td>Tyrique_Waters16@hotmail.com</td>
+					
+				</tr>
+				<tr>
+					<td>97</td>
+					<td>Jeramy Steuber</td>
+					<td>Catalina.Stehr24@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>98</td>
+					<td>Madge Bogisich</td>
+					<td>Joey.Marquardt50@gmail.com</td>
+				</tr>
+				<tr>
+					<td>99</td>
+					<td>Casimer MacGyver</td>
+					<td>Julius.Bednar96@yahoo.com</td>
+					
+				</tr>
+				<tr>
+					<td>100</td>
+					<td>Arlene Kassulke</td>
+					<td>Josiane_Smith@yahoo.com</td>
+					
+				</tr>
+			  </tbody>
+			</table>
+			
+			<div class='pagination-container' >
+				<nav>
+				  <ul class="pagination">
+            
+            <li data-page="prev" >
+								     <span> < <span class="sr-only">(current)</span></span>
+								    </li>
+				   
+        <li data-page="next" id="prev">
+								       <span> > <span class="sr-only">(current)</span></span>
+								    </li>
+				  </ul>
+				</nav>
+			</div>
+
+</div> 
+
+
+
+            
+
+ 
+						
+				
+					
+					
+		
